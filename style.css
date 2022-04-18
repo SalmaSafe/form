@@ -1,0 +1,184 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans', sans-serif; */
+*{
+   box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right bottom, #e0c753, #bb53c9);
+    font-family:'Open Sans', sans-serif; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+img{
+    width: 45%;  
+}
+
+
+.container{
+    width: 30%; 
+    margin-inline:auto; 
+    background-color:#e7bc44;
+    height: 550px;
+    padding: 30px;
+    margin: 50px 0 0 0;     
+}
+
+.register-row {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.col {
+    grid-column: 1 / span 1;
+}
+
+
+.col2 {
+    grid-column: 3 / span 1;
+    margin: -13.5% 0 0 0%;
+    width:80%
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.register__logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: rgb(71, 70, 70);
+}
+
+ .register h4{
+    font-size: small;
+    text-align: left;
+    width: 200%;
+    margin:0  0 0 0;
+}
+
+.register__img {
+    margin-top: 4rem;
+    width:290%;
+    margin: -10%;
+}
+.register__form-icon-google{
+
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    width:40%;
+    padding:10px
+    
+
+}
+.register__form-icon{
+    display: flex;
+    align-items: center;
+    gap: 3rem;  
+   width: 145%;
+
+}
+.register__form-icon span{
+padding-right: 35%;
+}
+
+.register__form{
+     background-color: aliceblue;
+     height: 550px;
+     padding: 30px;
+     margin: 50px 0 0 0;
+     width: 120%;
+} 
+
+ .register{
+    display: flex;
+    margin: 5%;
+    padding:100px;
+    
+}
+.register__form-icon-facebook{
+    width: 30px;
+    background-color: rgb(207, 207, 207);
+    padding:5px;
+    border-radius: 3px;
+    margin:0 0 0 35%;
+}
+.register__form-icon-twitter{
+    width: 30px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 3px;
+    margin:0;
+    padding:5px;
+}
+.register__title{
+    font-size: 16;
+    width: 390%;
+    
+}
+.formone label{
+    font-weight: bold;
+}
+
+.formone input{
+   padding:10px;
+   margin:5px
+}
+.calm{
+    color: rgb(0, 208, 255);
+}
+.submittext{
+    background-color: crimson;
+    border: none;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+}
+.containerii{
+    background-color: #f7ffff86;
+    width: 30%;
+    padding: 8%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.the-one input{
+    padding: 5%;
+}
+.input2{
+margin: 8% 8% 10% 0;
+display: block;
+}
+.log__in{
+    padding:3%;
+    width: 38%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.check{
+    display: block;
+    margin: 5% 0 0 0;
+}
+.heading{
+    font-size: 32px;
+}
+.register__form-icon-facebook i{
+    margin-right: 3%;
+}
+.social__links{
+    margin-right: 5%;
+    display: flex;
+    gap: 2rem;
+}
+.col h4{
+    margin-bottom: -13%;
+}
+.col img{
+    width: 150px;
+    height: 150px;
+}
